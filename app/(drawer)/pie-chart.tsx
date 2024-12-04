@@ -72,7 +72,7 @@ export default function PieChartScreen() {
           <Text style={styles.controlLabel}>Chart Width</Text>
           <Slider
             value={chartWidth}
-            minimumValue={150}
+            minimumValue={100}
             maximumValue={Dimensions.get("window").width}
             onValueChange={setChartWidth}
             thumbTintColor="#3498db"
@@ -86,8 +86,8 @@ export default function PieChartScreen() {
           <Text style={styles.controlLabel}>Chart Height</Text>
           <Slider
             value={chartHeight}
-            minimumValue={200}
-            maximumValue={400}
+            minimumValue={100}
+            maximumValue={200}
             onValueChange={setChartHeight}
             thumbTintColor="#e67e22"
             minimumTrackTintColor="#e67e22"

@@ -26,6 +26,20 @@ export default function Layout() {
             title: "Pie Chart",
           }}
         />
+        <Drawer.Screen
+          name="bar-chart"
+          options={{
+            drawerLabel: "Bar Chart",
+            title: "Bar Chart",
+          }}
+        />
+        <Drawer.Screen
+          name="digital-gauge"
+          options={{
+            drawerLabel: "Digital Gauge",
+            title: "Digital Gauge",
+          }}
+        />
       </Drawer>
     </GestureHandlerRootView>
   );
