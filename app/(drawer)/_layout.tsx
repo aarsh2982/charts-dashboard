@@ -50,8 +50,15 @@ export default function Layout() {
         <Drawer.Screen
           name="radial-chart"
           options={{
-            drawerLabel: "Radial Gauge",
-            title: "Radial Gauge",
+            drawerLabel: "Radial Chart",
+            title: "Radial Chart",
+          }}
+        />
+        <Drawer.Screen
+          name="segment-display"
+          options={{
+            drawerLabel: "Segment Display",
+            title: "Segment Display",
           }}
         />
       </Drawer>
