@@ -47,6 +47,13 @@ export default function Layout() {
             title: "Analog Gauge",
           }}
         />
+        <Drawer.Screen
+          name="radial-chart"
+          options={{
+            drawerLabel: "Radial Gauge",
+            title: "Radial Gauge",
+          }}
+        />
       </Drawer>
     </GestureHandlerRootView>
   );
