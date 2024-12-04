@@ -40,6 +40,13 @@ export default function Layout() {
             title: "Digital Gauge",
           }}
         />
+        <Drawer.Screen
+          name="analog-gauge"
+          options={{
+            drawerLabel: "Analog Gauge",
+            title: "Analog Gauge",
+          }}
+        />
       </Drawer>
     </GestureHandlerRootView>
   );
