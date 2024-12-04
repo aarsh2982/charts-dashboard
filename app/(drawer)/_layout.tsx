@@ -61,6 +61,13 @@ export default function Layout() {
             title: "Segment Display",
           }}
         />
+        <Drawer.Screen
+          name="odometer"
+          options={{
+            drawerLabel: "Odometer",
+            title: "Odometer",
+          }}
+        />
       </Drawer>
     </GestureHandlerRootView>
   );
